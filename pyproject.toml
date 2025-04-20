@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fund_relationship"
+version = "0.1.0"
+description = "Fund position data analysis with pivot table interface"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+sqlalchemy = "^2.0.0"
+pandas = "^2.2.0"
+streamlit = "^1.32.0"
+python-dotenv = "^1.0.0"
+pyodbc = "^5.0.1"  # SQL Server driver
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.2.0"
+isort = "^5.13.0"
+pylint = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api" 
